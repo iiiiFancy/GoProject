@@ -2,13 +2,15 @@ package main
 
 import (
 	"gopkg.in/olivere/elastic.v3"
-	"fmt"
-	"reflect"
-	"net/http"
+
 	"encoding/json"
+	"fmt"
+	"net/http"
+	"reflect"
 	"strings"
-	"github.com/dgrijalva/jwt-go"
 	"time"
+
+	"github.com/dgrijalva/jwt-go"
 )
 
 const (
